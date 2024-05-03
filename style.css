@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Norse-Bold.otf);
+  }
+#Flex-row{
+    display: flex;
+}
+#left{
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+    background-image: url('pixelRoad.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    color: white;
+    justify-content: center;
+}
+img{
+    
+    height: 100px;
+    width: auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(0,0,0,0.6);
+    width: 100%;
+    height: 110px;
+    padding-top: 10px;
+}
+.odin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: myFirstFont;
+}
+
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 100vh;
+    font-size: 23px;
+
+}
+
+.none{
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.inner{
+    width: 600px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inner-form{
+    display: block;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+input{
+    display: flex;
+    width: 250px;
+    height: 20px;
+    margin-left: 50px;
+
+}
+label{
+    display: flex;
+    font-size: 13px;
+    margin-left: 50px;
+
+
+}
+.wrap{
+    display: flex;
+    margin-top: 45px;
+    font-weight: bold;
+
+}
+div{
+    display: block;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+  
+}
+.margin2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+button{
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.174);
+    margin-top: 30px;
+    margin-left: 50px;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+
+#le{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.login{
+    margin-top: 30px;
+}
+
+form{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.174);
+}
+input:focus{
+    border: rgb(56, 56, 237) solid ;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.3);
+
+}
+.small{
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+input:invalid{
+    border: red solid;
+}
